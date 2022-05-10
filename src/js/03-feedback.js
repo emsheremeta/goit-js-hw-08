@@ -27,7 +27,7 @@ function onFormSubmit (evt) {
 function populateTextArea() {
     const savedMessage = JSON.stringify( localStorage.getItem(formData));
     if (savedMessage) {
-        console.log (savedMessage)
+       // console.log (savedMessage)
         refs.textarea.value = savedMessage
     }
 }
