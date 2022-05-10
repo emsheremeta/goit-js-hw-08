@@ -9,7 +9,7 @@ refs.form.addEventListener('submit', onFormSubmit);
 refs.textarea.addEventListener('input',throttle (onTextareaInput, 500));
 
 const STORAGE_KEY = 'feedback-form-state'
-const formData =[];
+const formData ={};
 //взять value и записать в localstoge
 
 function onTextareaInput (evt) {
