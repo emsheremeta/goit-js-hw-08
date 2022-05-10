@@ -9,7 +9,7 @@ const PLAY_TIME = "videoplayer-current-time"
 
  player.on('timeupdate', throttle(onPlay, 1000));
  function onPlay (data) {
-    console.log (data.seconds)
+    //console.log (data.seconds)
 
 localStorage.setItem (PLAY_TIME, data.seconds)
 }
